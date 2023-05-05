@@ -2552,6 +2552,8 @@ void ProjectManager::_version_button_pressed() {
 ProjectManager::ProjectManager() {
 	singleton = this;
 
+	print_line("Test");
+
 	// load settings
 	if (!EditorSettings::get_singleton()) {
 		EditorSettings::create();
